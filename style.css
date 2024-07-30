@@ -11,6 +11,12 @@ body {
     color: rgba(242, 255, 1, 0.925);
     text-align: center;
     height: 800px;
+    background-attachment: fixed; /* Parallax effect */
+    background-repeat: no-repeat;
+}
+
+.parallax {
+    background-attachment: fixed;
 }
 
 .video-section {
